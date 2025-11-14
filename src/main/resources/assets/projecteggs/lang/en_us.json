@@ -1,0 +1,13 @@
+{
+  "itemGroup.projecteggs": "Example Mod Tab",
+  "block.projecteggs.example_block": "Example Block",
+  "item.projecteggs.example_item": "Example Item",
+
+  "projecteggs.configuration.title": "ProjectEggs Configs",
+  "projecteggs.configuration.section.projecteggs.common.toml": "ProjectEggs Configs",
+  "projecteggs.configuration.section.projecteggs.common.toml.title": "ProjectEggs Configs",
+  "projecteggs.configuration.items": "Item List",
+  "projecteggs.configuration.logDirtBlock": "Log Dirt Block",
+  "projecteggs.configuration.magicNumberIntroduction": "Magic Number Text",
+  "projecteggs.configuration.magicNumber": "Magic Number"
+}
