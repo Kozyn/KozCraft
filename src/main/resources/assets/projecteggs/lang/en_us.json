@@ -1,7 +1,7 @@
 {
-  "itemGroup.projecteggs": "Example Mod Tab",
-  "block.projecteggs.example_block": "Example Block",
-  "item.projecteggs.example_item": "Example Item",
+  "item.projecteggs.magenta_matter": "Magenta Matter",
+  "item.projecteggs.pink_matter": "Pink Matter",
+  "item.projecteggs.yellow_matter": "Yellow Matter",
 
   "projecteggs.configuration.title": "ProjectEggs Configs",
   "projecteggs.configuration.section.projecteggs.common.toml": "ProjectEggs Configs",
