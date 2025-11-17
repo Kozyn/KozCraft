@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "projecteggs:hampter"
+    }
+  },
+  "result": {
+    "id": "projecteggs:hampter_block",
+    "count": 1
+  }
+}

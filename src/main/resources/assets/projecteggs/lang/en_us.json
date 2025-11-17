@@ -1,7 +1,9 @@
 {
-  "item.projecteggs.magenta_matter": "Magenta Matter",
-  "item.projecteggs.pink_matter": "Pink Matter",
-  "item.projecteggs.yellow_matter": "Yellow Matter",
+  "block.projecteggs.hampter_block": "Block of Hampter",
+
+  "item.projecteggs.hampter": "Hampter",
+
+  "itemGroup.projecteggs.group": "ProjectEggs",
 
   "projecteggs.configuration.title": "ProjectEggs Configs",
   "projecteggs.configuration.section.projecteggs.common.toml": "ProjectEggs Configs",

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "projecteggs:hampter_block"
+    }
+  ],
+  "result": {
+    "id": "projecteggs:hampter",
+    "count": 9
+  }
+}
