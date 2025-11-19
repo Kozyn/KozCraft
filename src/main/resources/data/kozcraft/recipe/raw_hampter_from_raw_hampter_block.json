@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kozcraft:raw_hampter_block"
+    }
+  ],
+  "result": {
+    "id": "kozcraft:raw_hampter",
+    "count": 9
+  }
+}

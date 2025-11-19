@@ -1,7 +1,7 @@
 package com.gmail.kozynthetaquito;
 
 import com.gmail.kozynthetaquito.block.BlockRegister;
-import com.gmail.kozynthetaquito.item.ItemRegister;
+import com.gmail.kozynthetaquito.item.HampterItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,11 +20,13 @@ public class CreativeTab {
             "creative_tab_main",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup." + KozCraft.MODID + ".creative_tab_main"))
-                    .icon(() -> new ItemStack(ItemRegister.HAMPTER.get()))
+                    .icon(() -> new ItemStack(HampterItems.HAMPTER.get()))
                     .displayItems((params, output) -> {
-                        output.accept(ItemRegister.HAMPTER.get());
-                        output.accept(ItemRegister.HAMPTER_INGOT.get());
+                        output.accept(HampterItems.RAW_HAMPTER.get());
+                        output.accept(BlockRegister.RAW_HAMPTER_BLOCK.get());
+                        output.accept(HampterItems.HAMPTER_INGOT.get());
                         output.accept(BlockRegister.HAMPTER_BLOCK.get());
+                        output.accept(HampterItems.HAMPTER.get());
                     })
                     .build()
     );

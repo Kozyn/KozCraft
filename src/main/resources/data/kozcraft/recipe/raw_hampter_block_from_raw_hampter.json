@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "kozcraft:raw_hampter"
+    }
+  },
+  "result": {
+    "id": "kozcraft:raw_hampter_block",
+    "count": 1
+  }
+}

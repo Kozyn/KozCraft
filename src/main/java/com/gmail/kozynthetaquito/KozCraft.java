@@ -2,7 +2,7 @@ package com.gmail.kozynthetaquito;
 
 
 import com.gmail.kozynthetaquito.block.BlockRegister;
-import com.gmail.kozynthetaquito.item.ItemRegister;
+import com.gmail.kozynthetaquito.item.HampterItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import org.slf4j.Logger;
@@ -19,7 +19,7 @@ public class KozCraft {
 
     public KozCraft(IEventBus eventBus) {
         BlockRegister.register(eventBus);
-        ItemRegister.register(eventBus);
+        HampterItems.register(eventBus);
         CreativeTab.register(eventBus);
 
         eventBus.addListener(this::addCreativeTabs);

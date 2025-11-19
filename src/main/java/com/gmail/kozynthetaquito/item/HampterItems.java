@@ -6,7 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ItemRegister {
+public class HampterItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(KozCraft.MODID);
 
     public static final DeferredItem<Item> HAMPTER = ITEMS.register(
@@ -16,6 +16,11 @@ public class ItemRegister {
 
     public static final DeferredItem<Item> HAMPTER_INGOT = ITEMS.register(
             "hampter_ingot",
+            () -> new Item(new Item.Properties())
+    );
+
+    public static final DeferredItem<Item> RAW_HAMPTER = ITEMS.register(
+            "raw_hampter",
             () -> new Item(new Item.Properties())
     );
 

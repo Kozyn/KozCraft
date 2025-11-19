@@ -1,14 +1,16 @@
 {
   "block.kozcraft.hampter_block": "Block of Hampter",
+  "block.kozcraft.raw_hampter_block": "Block of Raw Hampter",
 
+  "item.kozcraft.raw_hampter": "Raw Hampter",
   "item.kozcraft.hampter": "Hampter",
   "item.kozcraft.hampter_ingot": "Hampter Ingot",
 
   "itemGroup.kozcraft.creative_tab_main": "KozCraft",
 
-  "kozcraft.configuration.title": "ProjectEggs Configs",
-  "kozcraft.configuration.section.projecteggs.common.toml": "ProjectEggs Configs",
-  "kozcraft.configuration.section.projecteggs.common.toml.title": "ProjectEggs Configs",
+  "kozcraft.configuration.title": "KozCraft Configs",
+  "kozcraft.configuration.section.kozcraft.common.toml": "KozCraft Configs",
+  "kozcraft.configuration.section.kozcraft.common.toml.title": "KozCraft Configs",
   "kozcraft.configuration.items": "Item List",
   "kozcraft.configuration.logDirtBlock": "Log Dirt Block",
   "kozcraft.configuration.magicNumberIntroduction": "Magic Number Text",
