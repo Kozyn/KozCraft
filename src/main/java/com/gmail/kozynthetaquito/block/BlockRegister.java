@@ -1,6 +1,6 @@
 package com.gmail.kozynthetaquito.block;
 
-import com.gmail.kozynthetaquito.ProjectEggs;
+import com.gmail.kozynthetaquito.KozCraft;
 import com.gmail.kozynthetaquito.item.ItemRegister;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -14,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class BlockRegister {
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ProjectEggs.MODID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(KozCraft.MODID);
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
         ItemRegister.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

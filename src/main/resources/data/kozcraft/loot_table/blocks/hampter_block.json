@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "projecteggs:hampter_block"
+          "name": "kozcraft:hampter_block"
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "projecteggs:hampter_block.json"
+  "random_sequence": "kozcraft:hampter_block.json"
 }

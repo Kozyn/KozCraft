@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "projecteggs:block/hampter_block"
+    "all": "kozcraft:block/hampter_block"
   }
 }

@@ -8,11 +8,11 @@
   ],
   "key": {
     "H": {
-      "item": "projecteggs:hampter_block"
+      "item": "kozcraft:hampter_ingot"
     }
   },
   "result": {
-    "id": "projecteggs:hampter",
+    "id": "kozcraft:hampter_block",
     "count": 1
   }
 }

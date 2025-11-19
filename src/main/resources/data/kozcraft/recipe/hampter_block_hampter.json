@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "projecteggs:hampter_block"
+      "item": "kozcraft:hampter"
     }
   ],
   "result": {
-    "id": "projecteggs:hampter_ingot",
+    "id": "kozcraft:hampter_block",
     "count": 9
   }
 }
