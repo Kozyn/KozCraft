@@ -11,18 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 9.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "projecteggs:hampter"
+          "name": "projecteggs:hampter_block"
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/basalt"
+  "random_sequence": "projecteggs:hampter_block.json"
 }

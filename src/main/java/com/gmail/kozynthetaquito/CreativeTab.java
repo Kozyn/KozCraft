@@ -7,6 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -17,14 +18,15 @@ public class CreativeTab {
             ProjectEggs.MODID
     );
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register(
-            "group",
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATIVE_TAB_MOD = CREATIVE_MODE_TABS.register(
+            "creative_tab_main",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup." + ProjectEggs.MODID + ".group"))
-                    .icon(() -> new ItemStack(Items.EGG))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(BlockRegister.HAMPTER_BLOCK.get());
+                    .title(Component.translatable("itemGroup." + ProjectEggs.MODID + ".creative_tab_main"))
+                    .icon(() -> new ItemStack(ItemRegister.HAMPTER.get()))
+                    .displayItems((params, output) -> {
                         output.accept(ItemRegister.HAMPTER.get());
+                        output.accept(ItemRegister.HAMPTER_INGOT.get());
+                        output.accept(BlockRegister.HAMPTER_BLOCK.get());
                     })
                     .build()
     );

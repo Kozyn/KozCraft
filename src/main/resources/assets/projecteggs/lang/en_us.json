@@ -2,8 +2,9 @@
   "block.projecteggs.hampter_block": "Block of Hampter",
 
   "item.projecteggs.hampter": "Hampter",
+  "item.projecteggs.hampter_ingot": "Hampter Ingot",
 
-  "itemGroup.projecteggs.group": "ProjectEggs",
+  "itemGroup.projecteggs.creative_tab_main": "ProjectEggs",
 
   "projecteggs.configuration.title": "ProjectEggs Configs",
   "projecteggs.configuration.section.projecteggs.common.toml": "ProjectEggs Configs",

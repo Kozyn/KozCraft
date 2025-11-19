@@ -3,6 +3,7 @@ package com.gmail.kozynthetaquito;
 
 import com.gmail.kozynthetaquito.block.BlockRegister;
 import com.gmail.kozynthetaquito.item.ItemRegister;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import org.slf4j.Logger;

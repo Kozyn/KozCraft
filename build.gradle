@@ -130,9 +130,6 @@ dependencies {
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
 
-    implementation files("libs/projecte-1.21.1-1.1.0.jar")
-    implementation files("libs/projecteapi-1.21.1-1.1.0.jar")
-
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
 
