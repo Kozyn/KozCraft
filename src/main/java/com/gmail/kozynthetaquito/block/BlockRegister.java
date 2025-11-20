@@ -46,7 +46,15 @@ public class BlockRegister {
             )
     );
 
-
+    public static final DeferredBlock<Block> HAMPTER_ORE = registerBlock(
+            "hampter_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(68,6)
+                    .friction(0.6f)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            )
+    );
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

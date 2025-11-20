@@ -22,6 +22,7 @@ public class CreativeTab {
                     .title(Component.translatable("itemGroup." + KozCraft.MODID + ".creative_tab_main"))
                     .icon(() -> new ItemStack(HampterItems.HAMPTER.get()))
                     .displayItems((params, output) -> {
+                        output.accept(BlockRegister.HAMPTER_ORE);
                         output.accept(HampterItems.RAW_HAMPTER.get());
                         output.accept(BlockRegister.RAW_HAMPTER_BLOCK.get());
                         output.accept(HampterItems.HAMPTER_INGOT.get());
