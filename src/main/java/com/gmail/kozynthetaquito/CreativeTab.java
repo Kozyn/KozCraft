@@ -28,6 +28,7 @@ public class CreativeTab {
                         output.accept(HampterItems.HAMPTER_INGOT.get());
                         output.accept(BlockRegister.HAMPTER_BLOCK.get());
                         output.accept(HampterItems.HAMPTER.get());
+                        output.accept(HampterItems.EVIL_HAMPTER.get());
                     })
                     .build()
     );

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TST",
+    "SHS",
+    "TST"
+  ],
+  "key": {
+    "H": {
+      "item": "kozcraft:hampter"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "kozcraft:evil_hampter",
+    "count": 1
+  }
+}

@@ -4,8 +4,9 @@
   "block.kozcraft.hampter_ore": "Hampter Ore",
 
   "item.kozcraft.raw_hampter": "Raw Hampter",
-  "item.kozcraft.hampter": "Hampter",
   "item.kozcraft.hampter_ingot": "Hampter Ingot",
+  "item.kozcraft.hampter": "Hampter",
+  "item.kozcraft.evil_hampter": "Evil Hampter",
 
   "itemGroup.kozcraft.creative_tab_main": "KozCraft",
 
